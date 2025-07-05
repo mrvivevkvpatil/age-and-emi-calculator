@@ -53,7 +53,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en' suppressHydrationWarning>
-			<head>
+			<head><meta name="google-adsense-account" content="ca-pub-6268110213470754">
 				<title>CalcTools - Age & EMI Calculator</title>
 				<meta name='robots' content='index, follow' />
 				<Script src='https://www.googletagmanager.com/gtag/js?id=G-18V1J1V111' />
@@ -66,13 +66,9 @@ export default function RootLayout({
           `}
 				</Script>
 				{/* Google Adsense publisher code */}
-				<Script
-					async
-					src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456'
-					crossOrigin='anonymous'
-					strategy='lazyOnload'></Script>
+			 
 				{/* google Search Console verification */}
-				<meta name='google-site-verification' content='G-18V1J1V111' />
+				 
 			</head>
 			<body className={inter.className}>
 				<ThemeProvider
