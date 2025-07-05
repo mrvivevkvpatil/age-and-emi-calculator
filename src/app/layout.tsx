@@ -68,9 +68,9 @@ export default function RootLayout({
 				{/* Google Adsense publisher code */}
 				<Script
 					async
-					src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6268110213470754'
+					src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6268110213470754' 
 					crossOrigin='anonymous'
-					strategy='lazyOnload'></Script>
+					strategy='lazyOnload'></Script> 
 				{/* google Search Console verification */}
 				<meta name='google-site-verification' content='G-B9F8EDDMZ7' />
 			</head>
