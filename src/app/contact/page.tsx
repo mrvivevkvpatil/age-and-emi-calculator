@@ -100,7 +100,7 @@ export default function ContactPage() {
 				<div className='col-span-1'>
 					<Card>
 						<CardHeader>
-							<CardTitle>Contact Information</CardTitle>
+							<CardTitle>Contact Information</CardTitle> 
 							<CardDescription>
 								Other ways to get in touch with us.
 							</CardDescription>
