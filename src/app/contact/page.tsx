@@ -137,7 +137,7 @@ export default function ContactPage() {
 								<div>
 									<h3 className='font-medium'>Address</h3>
 									<p className='text-sm text-muted-foreground'>
-										A-14, Near Vrindavan Street
+										A-14, Near Vrindavan Street 
 										<br />
 										Mohain
 										<br />
