@@ -56,6 +56,23 @@ export default function RootLayout({
 			<head>
 				<title>CalcTools - Age & EMI Calculator</title>
 				<meta name='robots' content='index, follow' />
+				<Script src='https://www.googletagmanager.com/gtag/js?id=G-B9F8EDDMZ7' />
+				<Script id='google-tag-manager' strategy='lazyOnload'>
+					{`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-B9F8EDDMZ7');
+          `}
+				</Script>
+				{/* Google Adsense publisher code */}
+				<Script
+					async
+					src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6268110213470754'
+					crossOrigin='anonymous'
+					strategy='lazyOnload'></Script>
+				{/* google Search Console verification */}
+				<meta name='google-site-verification' content='G-B9F8EDDMZ7' />
 			</head>
 			<body className={inter.className}>
 				<ThemeProvider

@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Sitemap: https://itechsnews.com/sitemap.xml
+
+# Allow indexing of specific pages
+Allow: /age-calculator
+Allow: /emi-calculator
+Allow: /contact
+Allow: /privacy
+Allow: /terms
+Allow: /about
+
+# Disallow specific directories if needed
+Disallow: /api/
+Disallow: /_next/
