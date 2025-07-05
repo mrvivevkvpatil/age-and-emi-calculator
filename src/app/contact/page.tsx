@@ -124,7 +124,7 @@ export default function ContactPage() {
 								<div>
 									<h3 className='font-medium'>Phone</h3>
 									<p className='text-sm text-muted-foreground'>
-										+1 (555) 123-4567
+										+19 8087991045
 									</p>
 									<p className='text-sm text-muted-foreground'>
 										Mon-Fri, 9AM-5PM EST
@@ -137,13 +137,13 @@ export default function ContactPage() {
 								<div>
 									<h3 className='font-medium'>Address</h3>
 									<p className='text-sm text-muted-foreground'>
-										123 Calculator Street
+										A-14, Near Vrindavan Street
 										<br />
-										Suite 456
+										Mohain
 										<br />
-										New York, NY 10001
+										MH 410200
 										<br />
-										United States
+										India
 									</p>
 								</div>
 							</div>
