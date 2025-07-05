@@ -124,7 +124,7 @@ export default function ContactPage() {
 								<div>
 									<h3 className='font-medium'>Phone</h3>
 									<p className='text-sm text-muted-foreground'>
-										+19 8087991045
+										+91 8087991045
 									</p>
 									<p className='text-sm text-muted-foreground'>
 										Mon-Fri, 9AM-5PM EST
