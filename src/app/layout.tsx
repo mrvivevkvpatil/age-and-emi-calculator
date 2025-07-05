@@ -53,22 +53,9 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en' suppressHydrationWarning>
-			<head><meta name="google-adsense-account" content="ca-pub-6268110213470754">
+			<head>
 				<title>CalcTools - Age & EMI Calculator</title>
 				<meta name='robots' content='index, follow' />
-				<Script src='https://www.googletagmanager.com/gtag/js?id=G-18V1J1V111' />
-				<Script id='google-tag-manager' strategy='lazyOnload'>
-					{`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-18V1J1V111');
-          `}
-				</Script>
-				{/* Google Adsense publisher code */}
-			 
-				{/* google Search Console verification */}
-				 
 			</head>
 			<body className={inter.className}>
 				<ThemeProvider
