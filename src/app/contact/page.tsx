@@ -15,7 +15,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 export const metadata: Metadata = {
 	title: "Contact Us",
 	description:
-		"Get in touch with the CalcTools team for questions, feedback, or suggestions.",
+		"Get in touch with the itechsnews team for questions, feedback, or suggestions.",
 };
 
 export default function ContactPage() {
@@ -111,10 +111,10 @@ export default function ContactPage() {
 								<div>
 									<h3 className='font-medium'>Email</h3>
 									<p className='text-sm text-muted-foreground'>
-										support@calctools.com
+										support@itechsnews.com
 									</p>
 									<p className='text-sm text-muted-foreground'>
-										info@calctools.com
+										info@itechsnews.com
 									</p>
 								</div>
 							</div>
